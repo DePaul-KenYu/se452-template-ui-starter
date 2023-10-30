@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head> 
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Greeting Personal</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/lib/bulma/css/bulma.min.css}" />
+    <link rel="stylesheet" type="text/css" th:href="@{/lib/font-awesome/css/all.min.css}" />
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+          <h1 class="title">
+            Greetings
+          </h1>
+          <p class="fa-sharp fa-solid fa-user-secret"th:text="${name}"></p>
+        </div>
+      </section>    
+</body>
+</html>
